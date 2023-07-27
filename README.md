@@ -1,5 +1,5 @@
 # HistoSeg-PyTorch
-Unofficial implementation of the HistoSeg model for Segmentation of histopathological images in PyTorch
+Unofficial PyTorch implementation of the HistoSeg model for Segmentation of histopathological images
 ---
 ##### Official implementation: https://github.com/saadwazir/HistoSeg @[Saad Wazir](https://github.com/saadwazir)
 ##### Paper can be downloaded [here](https://www.researchgate.net/publication/362817207_HistoSeg_Quick_attention_with_multi-loss_function_for_multi-structure_segmentation_in_digital_histology_images)
