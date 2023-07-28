@@ -441,7 +441,7 @@ class Add(nn.Module):
         return x
 
 
-class HistoSeg_(nn.Module):
+class HistoSeg(nn.Module):
     def __init__(
         self,
         img_size: int = 256,
@@ -889,7 +889,7 @@ class HistoSeg_(nn.Module):
     x = torch.randn(2, 3, 256, 256)
     # for mobilenetv2 img_size must be 128 or bigger
     # batch_size smaller than 2 won't work with self.aap()
-    model = HistoSeg_(
+    model = HistoSeg(
         img_size=256, in_channels=3, classes=1, backbone="mobilenetv2", OS=16, alpha=1.0
     )
     y = model(x)
